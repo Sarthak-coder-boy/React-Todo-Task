@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div className="container">
-        <PageTitle>TODO List</PageTitle>
+        <PageTitle>TODO </PageTitle>
         <div className={styles.app__wrapper}>
-          <AppHeader />
           <AppContent />
+          <AppHeader />
         </div>
       </div>
       <Toaster
